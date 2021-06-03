@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="wa.css"/>
+        <script type="text/javascript" src="wa.js"></script>
+        <title>WhatsApp Clone</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    </head>
+    <body>
+        <div class="container">
+            <div class="pre">
+        
+            </div>
+            <!--The Green Part-->
+            <div class="green m">
+                    <span id="wa">WhatsApp</span>
+                
+                    <span id="search" onclick="search()"><img src="https://www.materialui.co/materialIcons/action/search_white_36x36.png"/></span>
+                    <span id="dots" onclick="dots_sec()"></span>
+                    <!--Dots click-->
+                    <div class="dots_menu" id="drop">
+                        <ul>
+                        <li class="list">New Group</li>
+                        <li class="list">New Broadcast</li>
+                        <li class="list">WhatsApp Web</li>
+                        <li class="list">Starred Messages</li>
+                        <li class="list" id='set'>Settings</li>
+                        <li class="list" id="dark" onclick="dark_mode()">Dark Mode</li>
+                        <li class="list" id="light" onclick="light_mode()">Light Mode</li>
+                        </ul>
+                    </div>
+                    <span id="camera"><img src="https://www.materialui.co/materialIcons/image/photo_camera_white_36x36.png"></span>  
+                    <span id="chats" onclick="chat_sec()">CHATS</span>
+                    <span id="sts" onclick="status()">STATUS</span>
+                    <span id="call" onclick="calls()">CALLS</span>
+                </div>
+
+            <div class="main">
+                
+                <div id="msg">
+                   
+                </div>
+                <!--<div id="Settings">
+                    Under Construction
+                </div>-->
+            </div>
+            <div class="status_section">
+            
+            </div>
+            <div class="calls_section">
+                
+            </div>
+       </div> 
+    </body>
+</html>
